@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakhi | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Rakhi<span>.</span></h2>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<!-- HOME SECTION -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="welcome">HELLO, WELCOME TO MY WORLD ✨</p>
+
+        <h1>Hi, I'm <span>Rakhi</span></h1>
+
+        <h2>Creative & Passionate Learner</h2>
+
+        <p>
+            I love exploring new technologies, creating beautiful designs
+            and building amazing digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <div class="profile-circle">
+            <div class="profile-placeholder">R</div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="section" id="about">
+    <p class="section-label">GET TO KNOW ME</p>
+    <h2 class="section-title">About <span>Me</span></h2>
+
+    <div class="about-content">
+        <div class="about-card">
+            <h3>My Introduction 💗</h3>
+            <p>
+                Hello! I'm Rakhi. I am a passionate and enthusiastic
+                individual who loves learning, creativity and technology.
+                I enjoy developing my skills and turning ideas into reality.
+                My goal is to keep growing and create meaningful work.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <h3>My Goal 🎯</h3>
+            <p>
+                My goal is to improve my knowledge, gain practical experience
+                and build creative projects that make a difference.
+                I believe in continuous learning and self-improvement.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="section skills-section" id="skills">
+    <p class="section-label">WHAT I KNOW</p>
+    <h2 class="section-title">My <span>Skills</span></h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">💻 HTML</div>
+        <div class="skill-card">🎨 CSS</div>
+        <div class="skill-card">⚡ JavaScript</div>
+        <div class="skill-card">🐍 Python</div>
+        <div class="skill-card">🗄️ Database</div>
+        <div class="skill-card">✨ Creativity</div>
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="section" id="projects">
+    <p class="section-label">MY RECENT WORK</p>
+    <h2 class="section-title">My <span>Projects</span></h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="project-icon">🌐</div>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive personal website to showcase my skills and work.</p>
+            <span>HTML • CSS • JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">📝</div>
+            <h3>To-Do Application</h3>
+            <p>A simple application to manage daily tasks and activities.</p>
+            <span>HTML • CSS • JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">🎨</div>
+            <h3>Creative Web Design</h3>
+            <p>A beautiful and modern website interface with responsive design.</p>
+            <span>HTML • CSS</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section contact-section" id="contact">
+    <p class="section-label">LET'S CONNECT</p>
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <div class="contact-card">
+        <h3>Have a project or opportunity? 💌</h3>
+        <p>I'd love to hear from you. Let's connect!</p>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </div>
+</section>
+
+<footer>
+    <h2>Rakhi<span>.</span></h2>
+    <p>Designed with 💗 by Rakhi</p>
+    <p>© 2026 All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
